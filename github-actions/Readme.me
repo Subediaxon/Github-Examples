@@ -1,10 +1,10 @@
 ## Manual Trigger
 
 ```sh
-gh workflow run greet.yml -f name=mona -f greeting=hello -F data=@myfile.txt
+gh workflow run maual.yml -f name=mona -f greeting=hello -F data=@mydata.txt
 echo '{"name":"mona", "greeting":"hello"}' | gh workflow run greet.yml --json
 ```
-
+0AF3-DB6F
 ## Webhook Event
  
 ```sh
